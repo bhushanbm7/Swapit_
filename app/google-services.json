@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "796522798767",
+    "project_id": "swapit4-ca4d5",
+    "storage_bucket": "swapit4-ca4d5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796522798767:android:2184bb36e4b5f9faac7e5a",
+        "android_client_info": {
+          "package_name": "com.example.swapit4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPNNbLLRkMI8ioZfrZzt_s0Hw3aQZAkKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

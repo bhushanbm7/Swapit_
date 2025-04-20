@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".SubmissionSuccessActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_success"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submitted Your Waste Successfully!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your agricultural waste listing has been successfully submitted to the marketplace."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/viewMarketplaceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Marketplace"
+        android:textAllCaps="false"
+        style="@style/Widget.MaterialComponents.Button"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

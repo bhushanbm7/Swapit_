@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_margin="8dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/typeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type: Plastic"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/regionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Region: Nashik"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/quantityTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity: 50 kg"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/viewDetailsButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="View Details" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</LinearLayout>

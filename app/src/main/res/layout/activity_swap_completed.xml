@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swap Completed!"
+        android:textSize="24sp"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Items Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <!-- Requester's Item -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="@drawable/item_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your New Item:"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/requesterItemView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <!-- Divider -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⇄"
+            android:textSize="24sp"
+            android:textColor="#4CAF50"
+            android:layout_marginHorizontal="8dp"/>
+
+        <!-- Owner's Item -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="@drawable/item_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Their New Item:"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/ownerItemView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Thank you message -->
+    <TextView
+        android:id="@+id/thankYouMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you for using SwapIt!"
+        android:textSize="18sp"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Go to Marketplace Button -->
+    <Button
+        android:id="@+id/marketplaceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Marketplace"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

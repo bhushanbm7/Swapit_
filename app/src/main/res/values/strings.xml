@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SwapIt</string>
+    <string-array name="waste_types">
+        <item>Rice Straw</item>
+        <item>Wheat Straw</item>
+        <item>Urea bags</item>
+        <item>Sugarcane Bagasse</item>
+        <item>Fertilizer</item>
+        <item>Cement</item>
+        <item>Soil</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="regions">
+        <item>Nashik</item>
+        <item>Nagpur</item>
+        <item>mumbai</item>
+        <item>Igatpuri</item>
+        <item>Manmad</item>
+    </string-array>
+
+    <string-array name="availability_options">
+        <item>Available</item>
+        <item>Available in 1-2 weeks</item>
+        <item>Available in 1 month</item>
+        <item>Seasonal Availability</item>
+    </string-array>
+
+
+</resources>
